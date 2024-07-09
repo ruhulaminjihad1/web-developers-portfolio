@@ -1,0 +1,49 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+
+}
+ nav ul li {
+ list-style: none; 
+ margin-right: 50px;
+ 
+ }
+ nav ul{
+    display: flex;
+ }
+ nav ul li a{
+    text-decoration: none;
+ }
+
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.text-primary{
+    color: rgb(253, 110, 10);
+}
+
+.btn-primary{
+    background-color: rgb(253, 110, 10);
+    font-weight: bold;
+    border-radius: 5px;
+    width: 79px;
+height: 27px;
+color:  rgb(255, 255, 255);
+border-style: none;
+ padding: 20px 30px;
+ 
+}
+.portfolio, .blog{
+    color: rgb(71, 71, 71);
+}
+.nav-title{
+    font-size: 45px;
+font-weight: 800;
+}
